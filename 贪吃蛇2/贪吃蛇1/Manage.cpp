@@ -79,32 +79,109 @@ bool Manage::check_foodinsnake(int a,int b, Snake *s)
 
 void Manage::move_snake(Snake* s,int score, int& dir)
 {
-    
-    if (_kbhit())
+    if (dir == 1)
     {
-        switch (_getch())
+        if (_kbhit())
         {
-        case 'a':
-            dir = 1;
-            break;
-        case 'd':
-            dir = 2;
-            break;
-        case 'w':
-            dir = 3;
-            break;
-        case 's':
-            dir = 4;
-            break;
-        case 'x':
-            //gameover = true;//暂停功能
-            break;
+            switch (_getch())
+            {
+            case 'a':
+                dir = 1;
+                break;
+            case 'd':
+                dir = 1;
+                break;
+            case 'w':
+                dir = 3;
+                break;
+            case 's':
+                dir = 4;
+                break;
+            case 'x':
+                //gameover = true;//暂停功能
+                break;
+            }
+        }
+    }
+
+    else if (dir == 2)
+    {
+        if (_kbhit())
+        {
+            switch (_getch())
+            {
+            case 'a':
+                dir = 2;
+                break;
+            case 'd':
+                dir = 2;
+                break;
+            case 'w':
+                dir = 3;
+                break;
+            case 's':
+                dir = 4;
+                break;
+            case 'x':
+                //gameover = true;//暂停功能
+                break;
+            }
+        }
+    }
+
+    else if (dir == 3)
+    {
+        if (_kbhit())
+        {
+            switch (_getch())
+            {
+            case 'a':
+                dir = 1;
+                break;
+            case 'd':
+                dir = 2;
+                break;
+            case 'w':
+                dir = 3;
+                break;
+            case 's':
+                dir = 3;
+                break;
+            case 'x':
+                //gameover = true;//暂停功能
+                break;
+            }
+        }
+    }
+
+    else if (dir == 4)
+    {
+        if (_kbhit())
+        {
+            switch (_getch())
+            {
+            case 'a':
+                dir = 1;
+                break;
+            case 'd':
+                dir = 2;
+                break;
+            case 'w':
+                dir = 4;
+                break;
+            case 's':
+                dir = 4;
+                break;
+            case 'x':
+                //gameover = true;//暂停功能
+                break;
+            }
         }
     }
     
-
     ListNode* p = s->GetTail();
     ListNode* q = s->GetHead();
+
     switch (dir)
     {
     case 1:
