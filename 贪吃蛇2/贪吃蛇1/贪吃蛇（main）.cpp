@@ -10,7 +10,7 @@ using namespace std;
 #define frame_height1 21
 
 int dir = 2;
-//哈哈
+
 //先生成蛇，再生成食物
 
 int main()
