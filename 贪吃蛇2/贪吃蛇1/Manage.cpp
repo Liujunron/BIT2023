@@ -187,24 +187,8 @@ void Manage::move_snake(Snake* s,int score, int& dir)
     case 1:
         s->EnQueue(p->y, p->x-1);
         p = s->GetTail();
-        if (s->FindNode1(p->y, p->x)||map[p->y][p->x]=='#')
-        {
-            cout << "gameover"<<endl;
-            //main函数中询问重新开始或结束游戏
-            cout << "您是否选择重新开始游戏" << endl;
-            cout << "        Y         N" << endl;
-            char choose;
-            cin >> choose;
-            if (choose == 'Y')
-            {
-                //主函数里写goto
-            }
-            else
-            {
-                exit(0);
-            }
-        }
-        else if (map[p->y][p->x] == '$')
+        
+        if (map[p->y][p->x] == '$')
         {
             score++;
             new_food(s);
@@ -215,6 +199,24 @@ void Manage::move_snake(Snake* s,int score, int& dir)
         {
             map[s->head->next->y][s->head->next->x] = '0';
             s->DeQueue();
+
+            if (s->FindNode1(p->y, p->x) || map[p->y][p->x] == '#')
+            {
+                cout << "gameover" << endl;
+                //main函数中询问重新开始或结束游戏
+                cout << "您是否选择重新开始游戏" << endl;
+                cout << "        Y         N" << endl;
+                char choose;
+                cin >> choose;
+                if (choose == 'Y')
+                {
+                    //主函数里写goto
+                }
+                else
+                {
+                    exit(0);
+                }
+            }
         }
         q = q->next;//此时q不再指向头结点（蛇尾前的）
         for (int i = 0; i < s->length; i++,q=q->next)
@@ -225,33 +227,35 @@ void Manage::move_snake(Snake* s,int score, int& dir)
     case 2:
         s->EnQueue(p->y, p->x + 1);
         p = s->GetTail();
-        if (s->FindNode1(p->y, p->x) || map[p->y][p->x] == '#')
-        {
-            cout << "gameover" << endl;
-            //main函数中询问重新开始或结束游戏
-            cout << "您是否选择重新开始游戏" << endl;
-            cout << "        Y         N" << endl;
-            char choose;
-            cin >> choose;
-            if (choose == 'Y')
-            {
-                //主函数里写goto
-            }
-            else
-            {
-                exit(0);
-            }
-        }
-        else if (map[p->y][p->x] == '$')
+        if (map[p->y][p->x] == '$')
         {
             score++;
             new_food(s);
         }
         //长按加速功能
+
         else
         {
             map[s->head->next->y][s->head->next->x] = '0';
             s->DeQueue();
+
+            if (s->FindNode1(p->y, p->x) || map[p->y][p->x] == '#')
+            {
+                cout << "gameover" << endl;
+                //main函数中询问重新开始或结束游戏
+                cout << "您是否选择重新开始游戏" << endl;
+                cout << "        Y         N" << endl;
+                char choose;
+                cin >> choose;
+                if (choose == 'Y')
+                {
+                    //主函数里写goto
+                }
+                else
+                {
+                    exit(0);
+                }
+            }
         }
         q = q->next;
         for (int i = 0; i < s->length; i++, q = q->next)
@@ -262,34 +266,35 @@ void Manage::move_snake(Snake* s,int score, int& dir)
     case 3:
         s->EnQueue(p->y-1, p->x);
         p = s->GetTail();
-        if (map[p->y][p->x] == '#'|| s->FindNode1(p->y, p->x)
-            )
-        {
-            cout << "gameover" << endl;
-            //main函数中询问重新开始或结束游戏
-            cout << "您是否选择重新开始游戏" << endl;
-            cout << "        Y         N" << endl;
-            char choose;
-            cin >> choose;
-            if (choose == 'Y')
-            {
-                //主函数里写goto
-            }
-            else
-            {
-                exit(0);
-            }
-        }
-        else if (map[p->y][p->x] == '$')
+        if (map[p->y][p->x] == '$')
         {
             score++;
             new_food(s);
         }
         //长按加速功能
+
         else
         {
             map[s->head->next->y][s->head->next->x] = '0';
             s->DeQueue();
+
+            if (s->FindNode1(p->y, p->x) || map[p->y][p->x] == '#')
+            {
+                cout << "gameover" << endl;
+                //main函数中询问重新开始或结束游戏
+                cout << "您是否选择重新开始游戏" << endl;
+                cout << "        Y         N" << endl;
+                char choose;
+                cin >> choose;
+                if (choose == 'Y')
+                {
+                    //主函数里写goto
+                }
+                else
+                {
+                    exit(0);
+                }
+            }
         }
         q = q->next;
         for (int i = 0; i < s->length; i++, q = q->next)
@@ -300,33 +305,35 @@ void Manage::move_snake(Snake* s,int score, int& dir)
     case 4:
         s->EnQueue(p->y+1, p->x);
         p = s->GetTail();
-        if (s->FindNode1(p->y, p->x) || map[p->y][p->x] == '#')
-        {
-            cout << "gameover" << endl;
-            //main函数中询问重新开始或结束游戏
-            cout << "您是否选择重新开始游戏" << endl;
-            cout << "        Y         N" << endl;
-            char choose;
-            cin >> choose;
-            if (choose == 'Y')
-            {
-                //主函数里写goto
-            }
-            else
-            {
-                exit(0);
-            }
-        }
-        else if (map[p->y][p->x] == '$')
+        if (map[p->y][p->x] == '$')
         {
             score++;
             new_food(s);
         }
         //长按加速功能
+
         else
         {
             map[s->head->next->y][s->head->next->x] = '0';
             s->DeQueue();
+
+            if (s->FindNode1(p->y, p->x) || map[p->y][p->x] == '#')
+            {
+                cout << "gameover" << endl;
+                //main函数中询问重新开始或结束游戏
+                cout << "您是否选择重新开始游戏" << endl;
+                cout << "        Y         N" << endl;
+                char choose;
+                cin >> choose;
+                if (choose == 'Y')
+                {
+                    //主函数里写goto
+                }
+                else
+                {
+                    exit(0);
+                }
+            }
         }
         q = q->next;
         for (int i = 0; i < s->length; i++, q = q->next)
