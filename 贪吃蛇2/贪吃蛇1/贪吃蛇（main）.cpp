@@ -27,6 +27,7 @@ int main()
 	m1->new_food(s);
 	m1->print_map();
 	m1->map[10][11]='$';
+	cout << "hello" << endl;
 
 	while (true)
 	{
