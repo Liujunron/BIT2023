@@ -15,6 +15,6 @@ public:
     void print_map();
     void new_food(Snake* s);
     bool check_foodinsnake(int a, int b, Snake* s);
-    void move_snake(Snake* s,int score, int&);
+    void move_snake(Snake* s, int& score, int&, char&);
     void new_obstacle1(Snake* s);
 };

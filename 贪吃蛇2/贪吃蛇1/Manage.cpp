@@ -64,20 +64,20 @@ void Manage::new_obstacle1(Snake *s)
 $1: srand(time(0));
     a = rand() % (frame_height - 2) + 1;
     b = rand() % (frame_width - 2) + 1;
-    if (a == 10 && b == 10) goto $1;
+    if ((a == 10 && b == 10)||map[a][b]=='#' || map[a][b] == '$' || map[a][b] == 's') goto $1;
     map[a][b] = '#';
 }
 
 bool Manage::check_foodinsnake(int a,int b, Snake *s)
 {
     
-    if (map[a][b] != '#' && !s->FindNode(a, b))
+    if (map[a][b] != '#' && !s->FindNode(a, b) && map[a][b] != '$')
         return false;
     else
         return true;
 }
 
-void Manage::move_snake(Snake* s,int score, int& dir)
+void Manage::move_snake(Snake* s,int& score, int& dir,char& restart)
 {
     if (dir == 1)
     {
@@ -206,9 +206,8 @@ void Manage::move_snake(Snake* s,int score, int& dir)
                 //main函数中询问重新开始或结束游戏
                 cout << "您是否选择重新开始游戏" << endl;
                 cout << "        Y         N" << endl;
-                char choose;
-                cin >> choose;
-                if (choose == 'Y')
+                cin >> restart;
+                if (restart == 'Y')
                 {
                     //主函数里写goto
                 }
@@ -245,9 +244,8 @@ void Manage::move_snake(Snake* s,int score, int& dir)
                 //main函数中询问重新开始或结束游戏
                 cout << "您是否选择重新开始游戏" << endl;
                 cout << "        Y         N" << endl;
-                char choose;
-                cin >> choose;
-                if (choose == 'Y')
+                cin >> restart;
+                if (restart == 'Y')
                 {
                     //主函数里写goto
                 }
@@ -284,9 +282,8 @@ void Manage::move_snake(Snake* s,int score, int& dir)
                 //main函数中询问重新开始或结束游戏
                 cout << "您是否选择重新开始游戏" << endl;
                 cout << "        Y         N" << endl;
-                char choose;
-                cin >> choose;
-                if (choose == 'Y')
+                cin >> restart;
+                if (restart == 'Y')
                 {
                     //主函数里写goto
                 }
@@ -323,9 +320,8 @@ void Manage::move_snake(Snake* s,int score, int& dir)
                 //main函数中询问重新开始或结束游戏
                 cout << "您是否选择重新开始游戏" << endl;
                 cout << "        Y         N" << endl;
-                char choose;
-                cin >> choose;
-                if (choose == 'Y')
+                cin >> restart;
+                if (restart == 'Y')
                 {
                     //主函数里写goto
                 }
