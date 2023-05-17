@@ -1,4 +1,0 @@
-﻿  Manage.cpp
-D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇2\贪吃蛇1\Manage.cpp(52,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇2\贪吃蛇1\Manage.cpp(64,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-  贪吃蛇1.vcxproj -> D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇2\x64\Debug\贪吃蛇1.exe
