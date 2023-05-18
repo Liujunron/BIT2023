@@ -1,7 +1,4 @@
 #include<iostream>
-#include"ListNode.h"
-#include"Manage.h"
-#include"Snake.h"
 #include<easyx.h>
 #include<graphics.h>
 #include<windows.h>
@@ -9,6 +6,9 @@
 #include<mmsystem.h>
 #include<stdio.h>
 #include<stdlib.h>
+#include"ListNode.h"
+#include"Snake.h"
+#include"Manage.h"
 #include"Visualization.h"
 #pragma comment(lib,"winmm.lib")
 using namespace std;
