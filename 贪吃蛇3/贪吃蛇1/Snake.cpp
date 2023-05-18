@@ -1,6 +1,6 @@
 #include "Snake.h"
 
-Snake::Snake()
+Snake::Snake()//构造空蛇，有头结点
 {
 	head = new ListNode;
 	tail = head;

@@ -22,8 +22,10 @@ class Visualization
 {
 public:
 	void button(int x, int y, int w, int h, const char* text);
+	//插入按钮，直接使用
 	void picture(const char* text);
 	void picture(int x, int y, int w, int h, const char* text);
+	//插入图片，直接使用
 	void Visualize(Manage* m);
 
 };

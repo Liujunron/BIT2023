@@ -62,6 +62,15 @@ $1: srand(time(0));
     map[a][b] = '#';
 }
 
+void Manage::pause()
+{
+    while (1)
+        {
+            if (kbhit() && _getch() == ' ')
+                break;
+        }
+}
+
 bool Manage::check_foodinsnake(int a,int b, Snake *s)
 {
     
@@ -91,8 +100,8 @@ void Manage::move_snake(Snake* s,int& score, int& dir,int& restart)
             case 's':
                 dir = 4;
                 break;
-            case 'x':
-                //gameover = true;//暂停功能
+            case ' ':
+                pause();
                 break;
             default:
                 break;
@@ -118,8 +127,8 @@ void Manage::move_snake(Snake* s,int& score, int& dir,int& restart)
             case 's':
                 dir = 4;
                 break;
-            case 'x':
-                //gameover = true;//暂停功能
+            case ' ':
+                pause();
                 break;
             }
         }
@@ -143,8 +152,8 @@ void Manage::move_snake(Snake* s,int& score, int& dir,int& restart)
             case 's':
                 dir = 3;
                 break;
-            case 'x':
-                //gameover = true;//暂停功能
+            case ' ':
+                pause();
                 break;
             }
         }
@@ -168,8 +177,8 @@ void Manage::move_snake(Snake* s,int& score, int& dir,int& restart)
             case 's':
                 dir = 4;
                 break;
-            case 'x':
-                //gameover = true;//暂停功能
+            case ' ':
+                pause();
                 break;
             }
         }
@@ -198,6 +207,8 @@ void Manage::move_snake(Snake* s,int& score, int& dir,int& restart)
 
             if (s->FindNode1(p->y, p->x) || map[p->y][p->x] == '#')
             {
+                mciSendString("pause game.mp3", 0, 0, 0);
+                mciSendString("play death.mp3", 0, 0, 0);
                 restart = 1;
                 return;
                 //cout << "gameover" << endl;
@@ -238,6 +249,8 @@ void Manage::move_snake(Snake* s,int& score, int& dir,int& restart)
 
             if (s->FindNode1(p->y, p->x) || map[p->y][p->x] == '#')
             {
+                mciSendString("pause game.mp3", 0, 0, 0);
+                mciSendString("play death.mp3", 0, 0, 0);
                 restart = 1;
                 return;
                 //cout << "gameover" << endl;
@@ -278,6 +291,8 @@ void Manage::move_snake(Snake* s,int& score, int& dir,int& restart)
 
             if (s->FindNode1(p->y, p->x) || map[p->y][p->x] == '#')
             {
+                mciSendString("pause game.mp3", 0, 0, 0);
+                mciSendString("play death.mp3", 0, 0, 0);
                 restart = 1;
                 return;
                 //cout << "gameover" << endl;
@@ -318,6 +333,8 @@ void Manage::move_snake(Snake* s,int& score, int& dir,int& restart)
 
             if (s->FindNode1(p->y, p->x) || map[p->y][p->x] == '#')
             {
+                mciSendString("pause game.mp3", 0, 0, 0);
+                mciSendString("play death.mp3", 0, 0, 0);
                 restart = 1;
                 return;
                 //cout << "gameover" << endl;

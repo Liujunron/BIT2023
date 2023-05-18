@@ -18,11 +18,12 @@ using namespace std;
 #define HEIGHT 840
 #define BATTLE_FIELD_LENGTH 840
 
-int dir = 2;
+int dir = 2;//记录当前方向状态的变量
+//并规定向左为1，向右为2，向上为3，向下为4
 int restart = 0;
 int T = 0;
-int X = 0;
-int Y = 0;
+int X = 0;//控制蛇速的伴随变量
+int Y = 0;//控制障碍物生成的伴随变量
 int mode = 0;
 
 char ss[10];
@@ -37,7 +38,7 @@ int main()
 	mciSendString("open game.mp3", 0, 0, 0);
 	mciSendString("play game.mp3 repeat", 0, 0, 0);
 	v->button(WIDTH / 2 - 100, HEIGHT / 3, 200, 50, "开始游戏");
-	v->button(WIDTH / 2 - 100, HEIGHT / 2, 200, 50, "排行榜");
+//	v->button(WIDTH / 2 - 100, HEIGHT / 2, 200, 50, "排行榜");
 	v->button(WIDTH / 2 - 100, 2 * HEIGHT / 3, 200, 50, "退出游戏");
 	while (true)
 	{
@@ -131,7 +132,7 @@ tag:
 		{
 			v->Visualize(m1);
 			EndBatchDraw();
-			if (score - X == 1)
+			if (score - X == 1&&T>=250)
 			{
 				T = T - score;
 				X = X + 1;
@@ -144,9 +145,9 @@ tag:
 			{
 				sprintf(ss, "%d", score);
 				InputBox(name, 10, t);
-				v->button(WIDTH / 2 - 100, HEIGHT / 3, 200, 50, "恭喜您！您的得分为");
-				v->button(WIDTH / 2 - 100, HEIGHT / 2, 200, 50, ss);
-				v->button(WIDTH / 2 - 100, 2 * HEIGHT / 3, 200, 50, "退出游戏");
+				v->button(WIDTH / 2 - 200, HEIGHT / 3, 400, 50, "恭喜您！您的得分为");
+				v->button(WIDTH / 2 - 200, HEIGHT / 2, 400, 50, ss);
+				v->button(WIDTH / 2 - 200, 2 * HEIGHT / 3, 400, 50, "退出游戏");
 				goto end;
 			}
 			BeginBatchDraw();
@@ -169,7 +170,7 @@ tag:
 		{
 			v->Visualize(m1);
 			EndBatchDraw();
-			if (score - X == 1)
+			if (score - X == 1&&T >= 170)
 			{
 				T = T - 2 * score;
 				X = X + 1;
@@ -182,9 +183,9 @@ tag:
 			{
 				sprintf(ss, "%d", score);
 				InputBox(name, 10, t);
-				v->button(WIDTH / 2 - 100, HEIGHT / 3, 200, 50, "恭喜您！您的得分为");
-				v->button(WIDTH / 2 - 100, HEIGHT / 2, 200, 50, ss);
-				v->button(WIDTH / 2 - 100, 2 * HEIGHT / 3, 200, 50, "退出游戏");
+				v->button(WIDTH / 2 - 200, HEIGHT / 3, 400, 50, "恭喜您！您的得分为");
+				v->button(WIDTH / 2 - 200, HEIGHT / 2, 400, 50, ss);
+				v->button(WIDTH / 2 - 200, 2 * HEIGHT / 3, 400, 50, "退出游戏");
 				goto end;
 			}
 			BeginBatchDraw();
@@ -210,7 +211,7 @@ tag:
 		{
 			v->Visualize(m1);
 			EndBatchDraw();
-			if (score - X == 1)
+			if (score - X == 1 && T >= 130)
 			{
 				T = T - 4 * score;
 				X = X + 1;
@@ -223,9 +224,9 @@ tag:
 			{
 				sprintf(ss, "%d", score);
 				InputBox(name, 10, t);
-				v->button(WIDTH / 2 - 100, HEIGHT / 3, 200, 50, "恭喜您！您的得分为");
-				v->button(WIDTH / 2 - 100, HEIGHT / 2, 200, 50, ss);
-				v->button(WIDTH / 2 - 100, 2 * HEIGHT / 3, 200, 50, "退出游戏");
+				v->button(WIDTH / 2 - 200, HEIGHT / 3, 400, 50, "恭喜您！您的得分为");
+				v->button(WIDTH / 2 - 200, HEIGHT / 2, 400, 50, ss);
+				v->button(WIDTH / 2 - 200, 2 * HEIGHT / 3, 400, 50, "退出游戏");
 				goto end;
 			}
 			BeginBatchDraw();
@@ -249,7 +250,7 @@ end:
 			switch (msg.message)
 			{
 			case WM_LBUTTONDOWN:
-				if (msg.x >= WIDTH / 2 - 100 && msg.x <= WIDTH / 2 - 100 + 200 && msg.y >= 2 * HEIGHT / 3 && msg.y <= 2 * HEIGHT / 3 + 50)
+				if (msg.x >= WIDTH / 2 - 200 && msg.x <= WIDTH / 2 - 200 + 400 && msg.y >= 2 * HEIGHT / 3 && msg.y <= 2 * HEIGHT / 3 + 50)
 				{
 					exit(0);
 				}

@@ -18,4 +18,5 @@ public:
     bool check_foodinsnake(int a, int b, Snake* s);
     void move_snake(Snake* s, int& score, int&, int&);
     void new_obstacle1(Snake* s);
+    void pause();
 };

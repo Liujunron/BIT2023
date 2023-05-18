@@ -35,11 +35,11 @@ void Visualization::Visualize(Manage* m)
 		{
 			if (m->map[i][j] == '$')
 			{
-				picture(40 * j, 40 * i, 40, 40, "./food.jpg");
+				picture(40 * j, 40 * i, 40, 40, "./food.png");
 			}
 			else if (m->map[i][j] == '#')
 			{
-				picture(40 * j, 40 * i, 40, 40, "./startpicture.jpg");
+				picture(40 * j, 40 * i, 40, 40, "./obstacle.jpg");
 			}
 			else if (m->map[i][j] == 's')
 			{
