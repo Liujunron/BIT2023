@@ -1,8 +1,0 @@
-﻿  贪吃蛇（main）.cpp
-D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(139,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(145,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(177,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(183,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(218,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(224,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  贪吃蛇1.vcxproj -> D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\x64\Debug\贪吃蛇1.exe

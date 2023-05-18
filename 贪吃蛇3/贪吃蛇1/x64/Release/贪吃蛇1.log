@@ -1,0 +1,112 @@
+﻿  ListNode.cpp
+  Manage.cpp
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(46,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(58,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(69,17): error C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(210,17): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [15]”转换为“LPCWSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(210,31): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(210,17): message : 尝试匹配参数列表“(const char [15], int, int, int)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(211,17): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [15]”转换为“LPCWSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(211,31): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(211,17): message : 尝试匹配参数列表“(const char [15], int, int, int)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(252,17): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [15]”转换为“LPCWSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(252,31): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(252,17): message : 尝试匹配参数列表“(const char [15], int, int, int)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(253,17): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [15]”转换为“LPCWSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(253,31): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(253,17): message : 尝试匹配参数列表“(const char [15], int, int, int)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(294,17): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [15]”转换为“LPCWSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(294,31): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(294,17): message : 尝试匹配参数列表“(const char [15], int, int, int)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(295,17): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [15]”转换为“LPCWSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(295,31): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(295,17): message : 尝试匹配参数列表“(const char [15], int, int, int)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(336,17): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [15]”转换为“LPCWSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(336,31): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(336,17): message : 尝试匹配参数列表“(const char [15], int, int, int)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(337,17): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [15]”转换为“LPCWSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(337,31): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Manage.cpp(337,17): message : 尝试匹配参数列表“(const char [15], int, int, int)”时
+  Snake.cpp
+  Visualization.cpp
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(8,2): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(8,2): message : “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(8,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(8,2): message : 尝试匹配参数列表“(int, int, const char [5])”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(10,20): error C2665: “textwidth”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(10,20): message : “int textwidth(TCHAR)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(10,30): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(10,20): message : “int textwidth(LPCTSTR)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(10,30): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(10,20): message : 尝试匹配参数列表“(const char *)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(11,20): error C2665: “textheight”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(11,20): message : “int textheight(TCHAR)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(11,31): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(11,20): message : “int textheight(LPCTSTR)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(11,31): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(11,20): message : 尝试匹配参数列表“(const char *)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(13,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(13,2): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char *”转换为“TCHAR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(13,20): message : 没有使该转换得以执行的上下文
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(13,2): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char *”转换为“LPCTSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(13,20): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(13,2): message : 尝试匹配参数列表“(int, int, const char *)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(19,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(19,2): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char *”转换为“LPCTSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(19,18): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(19,2): message : 尝试匹配参数列表“(IMAGE *, const char *)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(26,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(26,2): message : “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char *”转换为“LPCTSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(26,18): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(26,2): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char *”转换为“LPCTSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(26,18): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\Visualization.cpp(26,2): message : 尝试匹配参数列表“(IMAGE *, const char *, int, int, int)”时
+  贪吃蛇（main）.cpp
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(38,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [14]”转换为“LPCWSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(38,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(38,2): message : 尝试匹配参数列表“(const char [14], int, int, int)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(39,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [21]”转换为“LPCWSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(39,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(39,2): message : 尝试匹配参数列表“(const char [21], int, int, int)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(103,6): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [15]”转换为“LPCWSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(103,20): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(103,6): message : 尝试匹配参数列表“(const char [15], int, int, int)”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(147,5): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [10]”转换为“LPTSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(147,14): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(147,5): message : 尝试匹配参数列表“(char [10], int, char [17])”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(185,5): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [10]”转换为“LPTSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(185,14): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(185,5): message : 尝试匹配参数列表“(char [10], int, char [17])”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(226,5): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [10]”转换为“LPTSTR”
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(226,14): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(226,5): message : 尝试匹配参数列表“(char [10], int, char [17])”时
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(140,4): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(146,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(178,4): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(184,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(219,4): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\大学\C++数据结构\小组项目\BIT2023\贪吃蛇3\贪吃蛇1\贪吃蛇（main）.cpp(225,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
