@@ -18,6 +18,9 @@ using namespace std;
 #define HEIGHT 840
 #define BATTLE_FIELD_LENGTH 840
 
+//哈哈，我是yhr
+//hey bro
+
 int dir = 2;//记录当前方向状态的变量
 //并规定向左为1，向右为2，向上为3，向下为4
 int restart = 0;

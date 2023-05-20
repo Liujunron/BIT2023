@@ -5,7 +5,7 @@ void Visualization::button(int x, int y, int w, int h, const char* text)
 	setfillcolor(BLUE);
 	fillroundrect(x, y, x + w, y + h, 10, 10);
 
-	settextstyle(30, 0, "宋体");//宽度为0代表自适应
+	settextstyle(30, 0, "黑体");//宽度为0代表自适应
 
 	int tx = x + (w - textwidth(text)) / 2;
 	int ty = y + (h - textheight(text)) / 2;
