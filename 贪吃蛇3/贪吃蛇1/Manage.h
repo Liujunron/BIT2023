@@ -20,3 +20,4 @@ public:
     void new_obstacle1(Snake* s);
     void pause();
 };
+

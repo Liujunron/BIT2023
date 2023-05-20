@@ -20,7 +20,6 @@ public:
 	ListNode* GetTail();
 
 	friend class Manage;
-
-
 };
+
 

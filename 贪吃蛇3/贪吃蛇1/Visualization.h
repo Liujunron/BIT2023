@@ -27,6 +27,6 @@ public:
 	void picture(int x, int y, int w, int h, const char* text);
 	//插入图片，直接使用
 	void Visualize(Manage* m);
-
 };
+
 
